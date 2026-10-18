@@ -9,7 +9,8 @@ def starts_with_vowel(text):
 
 
 if __name__ == "__main__":
-    print(starts_with_vowel("apple"))   # True
-    print(starts_with_vowel("banana"))  # False
-    print(starts_with_vowel("Orange"))  # True
-    print(starts_with_vowel(""))        # False
+    fruit = input("Type the name of a fruit: ")
+    if starts_with_vowel(fruit):
+        print(f"{fruit} starts with a vowel.")
+    else:
+        print(f"{fruit} does not start with a vowel.")
