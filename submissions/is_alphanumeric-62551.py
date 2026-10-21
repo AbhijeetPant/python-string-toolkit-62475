@@ -3,8 +3,8 @@ def is_alphanumeric(text):                          #Defining the function
     if not text.isalnum():                          # Check if the string consists only of letters and numbers
         return False
         
-    has_letters = not text.isdigit()                # Check that it isn't purely letters 
-    has_numbers = not text.isalpha()                # Check that it isn't purely numbers
+    has_letters = not text.isdigit()                # Check that it isn't purely numbers
+    has_numbers = not text.isalpha()                # Check that it isn't purely letters
     
     return has_letters and has_numbers              # Checks if both condition and return true if both are true
 
